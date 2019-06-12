@@ -1,6 +1,5 @@
 import { sceneConfig, sysConfig } from "../../scriptCore/msgConfig";
 import { puremvc } from "../../scriptCore/puremvc";
-import { loadScene } from "../../scriptCore/commonCommand";
 
 
 const {ccclass, property} = cc._decorator;

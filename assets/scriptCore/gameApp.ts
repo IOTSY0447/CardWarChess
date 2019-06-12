@@ -9,6 +9,7 @@ const { ccclass, property } = cc._decorator;
 export default class gameApp extends puremvc.Component {
     onLoad() {
         cc.game.addPersistRootNode(this.node);
+        this.registerCommand()
     }
     /**
      * 统一注册Command
